@@ -4,7 +4,8 @@ public class Main {
         int date = 24;
         String month = "January";
         int year = 2024;
-        System.out.print(day + ", " + month + " " + date + ", " + year);
+        System.out.println("American Format: " + day + ", " + month + " " + date + ", " + year);
+        System.out.print("European Format: " + day + " " + date + " " + month + " " + year);
 
     }
 }
