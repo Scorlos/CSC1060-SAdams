@@ -34,4 +34,11 @@ public class Main {
         text = text + in.nextLine();
         return text;
     }
+
+    public static void subCheck (String text){
+        Scanner in = new Scanner(System.in);
+        System.out.print("What substring would you like to check for? ");
+        String check = in.nextLine();
+
+    }
 }
