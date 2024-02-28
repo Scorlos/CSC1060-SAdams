@@ -69,14 +69,14 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the prefix: ");
         String prefix = in.nextLine();
-        System.out.println(text.substring(text.lastIndexOf(prefix)).trim());
+        System.out.println(text.substring(text.indexOf(prefix) + prefix.length()));
     }
 
     public static void suffixSub(String text) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the suffix: ");
         String prefix = in.nextLine();
-        System.out.println(text.substring(0, text.indexOf(prefix) - 1).trim());
+        System.out.println(text.substring(0, text.indexOf(prefix)));
     }
 
     public static void preSufSub(String text) {
@@ -85,6 +85,6 @@ public class Main {
         String prefix = in.nextLine();
         System.out.print("Enter the suffix: ");
         String suffix = in.nextLine();
-        System.out.println(text.substring(text.lastIndexOf(prefix), text.indexOf(suffix) - 1));
+        System.out.println(text.substring(text.lastIndexOf(prefix) + prefix.length(), text.indexOf(suffix)));
     }
 }
