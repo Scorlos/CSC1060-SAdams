@@ -1,4 +1,4 @@
-public class Cat implements AdoptableAnimal{
+public class Cat implements AdoptableAnimal {
 
     String name;
     String description;
@@ -9,6 +9,7 @@ public class Cat implements AdoptableAnimal{
         this.description = description;
         this.price = price;
     }
+
     @Override
     public String getName() {
         return this.name;

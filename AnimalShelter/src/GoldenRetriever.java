@@ -1,4 +1,4 @@
-public class GoldenRetriever extends Dog{
+public class GoldenRetriever extends Dog {
     GoldenRetriever(String name, String description, double price) {
         super(name, description, price);
     }

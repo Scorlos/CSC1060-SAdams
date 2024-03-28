@@ -1,4 +1,4 @@
-public class Pitbull extends Dog{
+public class Pitbull extends Dog {
 
     Pitbull(String name, String description, double price) {
         super(name, description, price);
